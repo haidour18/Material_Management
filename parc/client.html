@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Entreprise Métro Alger</title>
+</head>
+<header>
+<nav class="navigateur">
+ <div class="container">
+ <h5 class="titrel"> Entreprise Métro Alger</h5 >
+ <img src="img/Metroalger.png" width=" 70 px" height="70px ">
+  </div >
+</nav>
+</header>
+<body>
+<div class="navi">
+<h4 class="titre2">
+   " Fiche d'intervention Informatique "
+</h4>
+</div>
+<form method="POST" action="formclient.php">
+
+  
+<div class="form">
+     <div class ="top-form">
+    <div class="inner-form">
+    <div class ="label">   Utilisateur</div> 
+    <input type="text" name="utilisateur">
+</div>
+
+<div class="inner-form">
+    <div class ="label">Date</div>
+    <input type="date" name="dates">
+
+</div>   
+    
+ <div class="inner-form">
+ <div class ="label">Heure</div> 
+ <input type="Time" name="heure"> 
+</div>
+  
+    <div class ="label">Type d'intervention</div> 
+<select name="inter">
+    <option value="Installation">Installation</option>
+    <option value="Aides">Aides</option>
+    <option value="Déplacement de Matériel">Déplacement de Matériel</option> 
+    <option value="Autres taches">Autres taches</option>
+</select>
+
+  
+  
+<br class="middle-form">
+    <div class="inner-form"> 
+        <div class ="label"> Departement</div>
+        <input type="text"  name="departement">
+</div>
+<div class="inner-form">
+<div class ="label">Fonction</div> 
+<input type="text" name="fonction"> 
+</div>    
+<div class="inner-form">
+<div class ="label">Direction</div> 
+<input type="text" name="direction"> 
+</div>
+<div class ="label">  Type de panne</div> 
+
+
+<select name="panne">
+        <option value="Réseaux">Réseaux</option>
+        <option value="Imprimante">Imprimante</option>
+        <option value="Systéme">Systéme</option> 
+        <option value="Panne Matériel">Panne Matériel</option>
+        <option value="Application">Application</option>
+    <option value="Base de Données">Base de Données</option>
+    <option value="Sauvegarde"> Sauvegarde </option> 
+    <option value="Autres taches">Autres taches</option>
+    </select>
+    <br>
+</br>
+   </div>
+     
+    <br>
+   <div class="forml">
+    <div class ="label">Observation</div>
+    <input type="text" name="observation"> 
+    </div>
+
+    <br>
+  
+
+    <div class="forml">
+        <div class ="label">Detail</div> 
+        <input type="text" name="detail"> 
+        </div>
+  
+     
+    </br>
+    
+</div>
+  
+
+  
+
+
+</div>
+<input type="submit" value="Envoyer La Demande" >
+
+
+</form>
+
+            
+        
+         
+</body>
+
+</html>

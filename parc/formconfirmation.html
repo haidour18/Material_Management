@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styleconf.css">
+    <title>Entreprise Métro Alger</title>
+</head>
+<header>
+<nav class="navigateur">
+ <div class="container">
+ <h5 class="titrel"> Entreprise Métro Alger</h5 >
+ <img src="img/Metroalger.png" width=" 70 px" height="70px ">
+  </div >
+</nav>
+</header>
+<body>
+<div class="navi">
+<h4 class="titre2">
+   " Fiche d'intervention Informatique "
+</h4>
+</div>
+<div class="container3">
+<form method="POST" action="formtr.php">
+
+  
+<div class="form">
+     <div class ="top-form">
+    <div class="inner-form">
+    <div class ="label">   Date fin</div> 
+    <input type="date" name="dates">
+</div>
+
+<div class="inner-form">
+    <div class ="label">Heure fin </div>
+    <input type="Time" name="heure">
+
+</div>   
+    
+
+  
+    <div class ="label">Type d'intervention</div> 
+<select name="genre">
+    <option value="Externe">Externe</option>
+    <option value="Interne">Interne</option>
+
+</select>
+
+  
+  <br></br><br></br>
+
+    <div class="inner-form2"> 
+        <div class ="label"> Detail </div>
+        <input type="text"  name="detail">
+
+    </div>
+    <br></br>  <br></br>
+<div class="middle-form">
+<div class="inner-form">
+<div class ="label">Designation</div> 
+<input type="text" name="designation"> 
+</div>    
+
+<div class="inner-form">
+<div class ="label">Inventaire</div> 
+<input type="text" name="inventaire"> 
+</div>
+
+<br></br>  <br></br>  
+    
+   <div class="inner-form3">
+    <div class ="label">Observation</div> 
+    <input type="text" name="obs"> 
+    </div>
+    <br></br>  <br></br>    
+  
+    <br>
+    <div class="inner-form3">
+        <div class ="label">Nécssité</div> 
+        <input type="text" name="nec"> 
+        </div>
+
+        <br></br>  <br></br>    
+        <div class="middle-form3">
+            <div class="forml">
+            <div class ="label">Montant chiffre</div> 
+            <input type="text" name="montant_chiff"> 
+            </div>    
+            <div class="forml">
+            <div class ="label">Montant lettre</div> 
+            <input type="text" name="montant_lett"> 
+            </div>
+    
+        </div>
+  
+
+
+</div>
+</div>
+
+<input type="submit" value="Confirmer" >
+
+
+</form>
+
+</div>         
+        
+         
+</body>
+
+</html>
